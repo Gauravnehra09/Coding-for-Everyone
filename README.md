@@ -47,4 +47,5 @@ GitHub: [@Gauravnehra09](https://github.com/Gauravnehra09)
 ### 📦 Clone the Repository
 
 ```bash
-git clone https://github.com/Gauravnehra09/learn-coding-with-nehra-ji.git
+git clone https://github.com/Gauravnehra09/Coding-for-Everyone.git
+
