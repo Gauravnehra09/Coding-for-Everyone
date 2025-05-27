@@ -1,0 +1,122 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navigation bar */
+nav{
+    background-color: rgb(57, 16, 16);
+    overflow: hidden;
+    position: sticky;  
+    width: 100%;
+    transition: all 0.2s;
+    scroll-behavior: smooth;
+}
+
+/* Styling the navigation link */
+nav a {
+    display: block; 
+   color: white;
+   text-decoration: none;
+   padding: 14px 20px;
+   float: left;
+   }
+   
+   /* applying hover property on navigation bar */
+   .menu-btn:hover{
+   background-color: white;
+   color: black;
+   }
+   
+   /* styling search button in navigation bar */
+   form{
+       padding-right: 50px;
+       padding-top: 5px;
+       padding-left: 550px;
+   }
+
+/* Adding gif to background of header */
+.banner{
+    background-image:url(../logo/gif.gif);
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: bottom  center;
+    background-color:black;
+   
+}
+
+/* Adding first photo */
+.photo_edit{
+    float: right;
+    margin: 0px;
+    width: 630px;
+    height: 280px;
+    padding-right: 120px;
+    padding-top: 30px;
+}
+
+/* Adding my photo */
+.gt{
+    float:left;
+    margin: 30px;
+    width: 400px;
+    height: 250px;
+    padding-left: 50px;
+}
+
+/* Styling Sign up text */
+span{
+    background:linear-gradient(to right,#f5d837,#bbb812);
+    border-radius: 20px ;
+    color:black;
+    padding: 10px 55px ;
+ 
+}
+
+span:hover{
+cursor: pointer;
+}
+    
+    /* styling links of social media handles */
+    .social_media_handle a{
+        background-color: rgb(125 125 125/25%);
+        padding: 10px 25px;
+        border-radius: 30px;
+        margin: 5px 10px;
+        text-decoration: none;
+    }
+    
+    /* applying hover property */
+    .social_media_handle a:hover{
+        color:antiquewhite;
+        background-color:black;
+    }
+
+    /* creating space between social media icon and line */
+    .social_media_handle a i{
+        margin: 5px;
+    }
+    
+    /* styling social media line */
+    .linkedin_handle{
+        color: #0077b5;
+    }
+    .instagram_handle{
+        
+        color: black;
+    }
+    .gmail_handle{
+        color:  rgb(187, 0, 27);
+    }
+
+/* to navigation bar responsive  */
+@media (width<=764px) {
+    .nav{
+        width: 100%;
+
+
+    }  
+}
